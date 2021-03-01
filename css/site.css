@@ -1,0 +1,34 @@
+a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* CSS for travel site */
+.font-primary {
+  font-family: 'Poppins', sans-serif;
+}
+.font-secondary {
+  font-family: 'Source Serif Pro', sans-serif;
+}
+
+header .upper {
+  padding: 0 0 0 3rem;
+  background-color: #20305F;
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+}
+header .upper img {
+  height: 17px;
+}
+header .upper .right-actions .btn-apply {
+  padding: 0.8rem 1rem;
+  display: inline-block;
+  background-color: #BB0707;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 0;
+  margin-left: 1rem;
+}
