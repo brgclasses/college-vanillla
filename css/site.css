@@ -62,3 +62,17 @@ header .middle .right-items .btn-admission {
   border-radius: 0;
   color: #fff;
 }
+
+header .navbar.lower {
+  background-color: #20305F;
+  padding: 0;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+  padding: 1rem 1.5rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+header .navbar .navbar-nav .nav-item.active .nav-link,
+  header .navbar .navbar-nav .nav-item:hover .nav-link {
+  background-color: #495885;
+}
