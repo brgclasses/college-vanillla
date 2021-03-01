@@ -113,3 +113,21 @@ header .banner .notifications .update-items li {
   padding: 0.25rem 0.8rem;
   margin-bottom: 0.5rem;
 }
+
+/* highlights */
+.highlights {
+  margin-top: -50px;
+}
+.highlights .row {
+  gap: 2.5rem;
+}
+.highlights .highlight-item img {
+  object-fit: cover;
+}
+.highlights .highlight-item .highlight-title {
+  background-color: #20305F;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 0.5rem 0.25rem;
+}
