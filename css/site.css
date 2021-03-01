@@ -32,3 +32,33 @@ header .upper .right-actions .btn-apply {
   border-radius: 0;
   margin-left: 1rem;
 }
+
+header .middle {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+}
+header .middle .left-items .profile {
+  height: 100px;
+}
+header .middle .left-items .info {
+  font-family: 'Source Serif Pro', sans-serif;
+}
+header .middle .left-items .info > p {
+  margin-bottom: 0;
+}
+header .middle .left-items .info > p:last-child {
+  font-size: 14px;
+}
+header .middle .left-items .college {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+header .middle .right-items .btn-admission {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0.8rem 2.5rem;
+  background-color: #2B28D0;
+  border-radius: 0;
+  color: #fff;
+}
