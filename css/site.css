@@ -2,6 +2,33 @@ a, a:hover {
   text-decoration: none;
   color: white;
 }
+.relative {
+  position: relative;
+}
+.mt-7 {
+  margin-top: 6rem;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.section-header .section-title {
+  font-family: 'Source Serif Pro', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+.section-header .section-divider {
+  border-bottom-width: 2px;
+  border-bottom-color: #dcdcdc;
+  overflow: hidden;
+  padding-top: 0.8rem;
+  border-bottom-style: solid;
+}
 
 /* CSS for travel site */
 .font-primary {
@@ -130,4 +157,18 @@ header .banner .notifications .update-items li {
   text-align: center;
   font-size: 14px;
   padding: 0.5rem 0.25rem;
+}
+
+/* about-section */
+.about-section .about-info {
+  line-height: 26px;
+}
+.about-section .features ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 36px;
+}
+.about-section .features img {
+  height: 25px;
 }
