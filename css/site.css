@@ -12,11 +12,17 @@ ul {
 .mt-7 {
   margin-top: 6rem;
 }
+.py-7 {
+  padding: 6rem 0;
+}
 .gap-1 {
   gap: 1rem;
 }
 .gap-2 {
   gap: 2rem;
+}
+section:nth-child(odd) {
+  background-color: #F5F5F5;
 }
 .section-header .section-title {
   font-family: 'Source Serif Pro', sans-serif;
