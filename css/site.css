@@ -231,3 +231,24 @@ header .banner .notifications .update-items li {
 .covid-section .covid-text-wrapper img {
   height: 25px;
 }
+
+/* stats */
+.stats-section {
+  background-color: #333;
+  color: #fff;
+  position: relative;
+}
+.stats-section .section-title {
+  color: #fff;
+  position: relative;
+}
+.stats-section .bg-cover::before {
+  content: '';
+  background: url("../img/stats.jpg") no-repeat center center/cover;
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
