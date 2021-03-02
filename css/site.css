@@ -2,6 +2,10 @@ a, a:hover {
   text-decoration: none;
   color: white;
 }
+ul {
+  list-style: none;
+  padding-left: 0;
+}
 .relative {
   position: relative;
 }
@@ -124,7 +128,6 @@ header .banner .notifications {
 }
 header .banner .notifications .update-items {
   font-size: 13px;
-  list-style: none;
   padding: 0 1rem 0 1rem;
 }
 header .banner .notifications .update-items .btn-new {
@@ -164,7 +167,6 @@ header .banner .notifications .update-items li {
   line-height: 26px;
 }
 .about-section .features ul {
-  list-style: none;
   padding-left: 0;
   font-size: 14px;
   line-height: 36px;
