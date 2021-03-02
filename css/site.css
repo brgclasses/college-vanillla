@@ -208,3 +208,26 @@ header .banner .notifications .update-items li {
 .admissions-section .tab-content .tab-pane span {
   margin-left: 10px;
 }
+
+/* covid */
+.covid-section .background-container {
+  position: relative;
+}
+.covid-section .background-container .image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.covid-section .covid-text-wrapper .inner-content {
+  padding: 3rem;
+  background-color: #E9E9E9;
+  margin: 30px 0;
+  position: relative;
+  left: 80%;
+}
+.covid-section .covid-text-wrapper .title {
+  font-family: "Source Serif Pro", sans-serif;
+}
+.covid-section .covid-text-wrapper img {
+  height: 25px;
+}
