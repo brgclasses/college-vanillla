@@ -172,3 +172,8 @@ header .banner .notifications .update-items li {
 .about-section .features img {
   height: 25px;
 }
+
+/* principal-section */
+.principal-section .message-info {
+  line-height: 26px;
+}
