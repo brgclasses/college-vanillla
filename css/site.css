@@ -33,7 +33,7 @@ section:nth-child(odd) {
   margin-right: 2rem;
 }
 .section-header .section-divider {
-  border-bottom-width: 2px;
+  border-bottom-width: 3px;
   border-bottom-color: #dcdcdc;
   overflow: hidden;
   padding-top: 0.8rem;
@@ -333,4 +333,10 @@ header .banner .notifications .update-items li {
 }
 .news-events-section .anniversary-news .btn-danger img {
   height: 25px;
+}
+
+/* gallery section */
+.gallery-section .section-header .view-more {
+  color: #666;
+  font-size: 20px;
 }
