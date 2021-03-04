@@ -21,14 +21,14 @@ ul {
 .gap-2 {
   gap: 2rem;
 }
-section:nth-child(odd) {
+section:nth-child(odd), .bg-gray {
   background-color: #F5F5F5;
 }
 .section-header .section-title {
   font-family: 'Source Serif Pro', sans-serif;
   font-size: 32px;
   font-weight: 600;
-  color: #555;
+  color: #444;
   margin-bottom: 3rem;
   margin-right: 2rem;
 }
@@ -339,4 +339,10 @@ header .banner .notifications .update-items li {
 .gallery-section .section-header .view-more {
   color: #666;
   font-size: 20px;
+}
+
+/* partners section */
+.partners-section img {
+  height: 70px;
+  margin-right: 20px;
 }
