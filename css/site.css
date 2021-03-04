@@ -26,9 +26,9 @@ section:nth-child(odd) {
 }
 .section-header .section-title {
   font-family: 'Source Serif Pro', sans-serif;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
-  color: #333;
+  color: #555;
   margin-bottom: 3rem;
   margin-right: 2rem;
 }
