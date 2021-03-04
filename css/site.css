@@ -357,3 +357,11 @@ header .banner .notifications .update-items li {
 .contact-section .quick-links li {
   margin-bottom: 0.5rem;
 }
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 13px;
+  padding: 0.5rem;
+}
