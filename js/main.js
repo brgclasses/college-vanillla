@@ -1,5 +1,4 @@
 // custom JS code
 $(function(){
-  // start here
+  new SimpleLightbox('.gallery-section .gallery-items a');
 });
-

@@ -40,7 +40,6 @@ section:nth-child(odd), .bg-gray {
   border-bottom-style: solid;
 }
 
-/* CSS for travel site */
 .font-primary {
   font-family: 'Poppins', sans-serif;
 }
@@ -48,6 +47,28 @@ section:nth-child(odd), .bg-gray {
   font-family: 'Source Serif Pro', sans-serif;
 }
 
+/* simplebox */
+.sl-wrapper .sl-close {
+  color: #fff;
+  font-size: 4rem;
+}
+.sl-wrapper .sl-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+.sl-wrapper .sl-navigation .sl-prev, .sl-wrapper .sl-navigation .sl-next {
+  color: #fff;
+  font-size: 5rem !important;
+}
+.sl-wrapper .sl-navigation .sl-prev:focus, .sl-wrapper .sl-navigation .sl-next:focus {
+  outline: none;
+  box-shadow: none;
+}
+.sl-overlay {
+  background: #444;
+}
+
+/* CSS for college site */
 header .upper {
   padding: 0 0 0 3rem;
   background-color: #20305F;
